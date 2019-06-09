@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/Common/Shared/CMakeLists.txt
+  CMake does not need to re-run because E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/Common/Shared/CMakeFiles/generate.stamp is up-to-date.
+  Builders.cpp
+  Drawing.cpp
+  Widgets.cpp
+  Generating Code...
+  Shared.vcxproj -> E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\Common\Shared\Release\Shared.lib

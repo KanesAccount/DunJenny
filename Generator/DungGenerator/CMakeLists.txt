@@ -1,0 +1,25 @@
+add_generator(DungGenerator
+    DunJenny.cpp
+    edge.cpp
+    edge.h
+    generationStrategy.cpp
+    generationStrategy.h
+    graph.cpp
+    graph.h
+    graphBuilder.cpp
+    graphBuilder.h
+    node.cpp
+    node.h
+    rule.cpp
+    rule.h
+    ruleFactory.cpp
+    ruleFactory.h
+    randomGenerator.cpp
+    randomGenerator.h
+    MetaTest.cpp
+    MetaTest.h
+    MovieInfo.h
+    Person.h
+    StringCast.cpp
+    StringCast.h
+)

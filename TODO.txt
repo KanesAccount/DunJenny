@@ -1,0 +1,16 @@
+fix display + colour of key/lock pins -- DONE
+add key pic in form of hello comment? --DONE
+fix clear map()
+
+
+make rule designer window
+fix save for saving paths to rules list
+
+dispay generation technique in lil code/text box ting
+
+
+PARSE issue saving Editor.cpp ln1154 -> ln339 -> ln1867 
+
+4379 ediotr
+
+1154 ed comm

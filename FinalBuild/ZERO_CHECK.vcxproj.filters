@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\CMakeFiles\d9b38d60d72d43cbd664d5896318b362\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97032E02-7FE4-3031-8891-9194938D933D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

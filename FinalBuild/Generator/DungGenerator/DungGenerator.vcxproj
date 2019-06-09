@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0648C53-1CF0-3BC8-8425-E969FFB14745}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>DungGenerator</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DungGenerator.dir\Debug\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DungGenerator_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DungGenerator.dir\Release\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DungGenerator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DungGenerator.dir\MinSizeRel\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DungGenerator_r</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DungGenerator.dir\RelWithDebInfo\</IntDir>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin</LocalDebuggerWorkingDirectory>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DungGenerator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E make_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E copy_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Data" "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\Debug\ImGui.lib;..\..\NodeEditor\Debug\NodeEditor.lib;..\Common\Shared\Debug\Shared.lib;..\Common\Application\Debug\Application.lib;..\Common\Shared\Debug\Shared.lib;..\..\NodeEditor\Debug\NodeEditor.lib;..\..\ThirdParty\ImGui\Debug\ImGui.lib;d3d11.lib;d3dcompiler.lib;..\..\..\ThirdParty\DXSDK\lib\x64\d3dx11d.lib;..\Common\Application\Debug\dxerr.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/Debug/DungGenerator_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/DungGenerator_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E make_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E copy_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Data" "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\Release\ImGui.lib;..\..\NodeEditor\Release\NodeEditor.lib;..\Common\Shared\Release\Shared.lib;..\Common\Application\Release\Application.lib;..\Common\Shared\Release\Shared.lib;..\..\NodeEditor\Release\NodeEditor.lib;..\..\ThirdParty\ImGui\Release\ImGui.lib;d3d11.lib;d3dcompiler.lib;..\..\..\ThirdParty\DXSDK\lib\x64\d3dx11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/Release/DungGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/DungGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E make_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E copy_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Data" "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\MinSizeRel\ImGui.lib;..\..\NodeEditor\MinSizeRel\NodeEditor.lib;..\Common\Shared\MinSizeRel\Shared.lib;..\Common\Application\MinSizeRel\Application.lib;..\Common\Shared\MinSizeRel\Shared.lib;..\..\NodeEditor\MinSizeRel\NodeEditor.lib;..\..\ThirdParty\ImGui\MinSizeRel\ImGui.lib;d3d11.lib;d3dcompiler.lib;..\..\..\ThirdParty\DXSDK\lib\x64\d3dx11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/MinSizeRel/DungGenerator_r.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/DungGenerator_r.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\ImGui;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Shared\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\NodeEditor\Source\Shared;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E make_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin"
+if %errorlevel% neq 0 goto :cmEnd
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe -E copy_directory "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Data" "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\ThirdParty\ImGui\RelWithDebInfo\ImGui.lib;..\..\NodeEditor\RelWithDebInfo\NodeEditor.lib;..\Common\Shared\RelWithDebInfo\Shared.lib;..\Common\Application\RelWithDebInfo\Application.lib;..\Common\Shared\RelWithDebInfo\Shared.lib;..\..\NodeEditor\RelWithDebInfo\NodeEditor.lib;..\..\ThirdParty\ImGui\RelWithDebInfo\ImGui.lib;d3d11.lib;d3dcompiler.lib;..\..\..\ThirdParty\DXSDK\lib\x64\d3dx11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/RelWithDebInfo/DungGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Bin/DungGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe "-HE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master" "-BE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild" --check-stamp-file "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\DungGenerator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe "-HE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master" "-BE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild" --check-stamp-file "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\DungGenerator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe "-HE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master" "-BE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild" --check-stamp-file "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\DungGenerator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\Uni\Diss\Apps\Cmake\bin\cmake.exe "-HE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master" "-BE:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild" --check-stamp-file "E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/Generator/DungGenerator/CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\DungGenerator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\DunJenny.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\edge.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\edge.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\generationStrategy.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\generationStrategy.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graph.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graph.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graphBuilder.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graphBuilder.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\node.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\node.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\rule.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\rule.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\ruleFactory.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\ruleFactory.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\randomGenerator.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\randomGenerator.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\MetaTest.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\MetaTest.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\MovieInfo.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\Person.h" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\StringCast.cpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\StringCast.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Member.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Member.inl" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Meta.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Meta.inl" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\MetaHolder.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\template_helpers.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\template_helpers.inl" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\json.hpp" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\JsonCast.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\JsonCast.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\ZERO_CHECK.vcxproj">
+      <Project>{67F1AF14-78D3-350F-B034-9E4F0E213004}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\Common\Application\Application.vcxproj">
+      <Project>{21C9FD8A-703D-3FF1-B29D-8D06A05DB3FE}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\ThirdParty\ImGui\ImGui.vcxproj">
+      <Project>{DC176690-6829-3DDB-9077-37E54CA7641C}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\NodeEditor\NodeEditor.vcxproj">
+      <Project>{E3A376E2-6135-38EC-8E20-55A6E11DE552}</Project>
+      <Name>NodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\Common\Shared\Shared.vcxproj">
+      <Project>{250CB7A4-29DE-373C-98CB-489EF6125562}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Generator\Common\Application\dxerr.vcxproj">
+      <Project>{7E993057-C797-3DAA-8437-F3871CE2DA4C}</Project>
+      <Name>dxerr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

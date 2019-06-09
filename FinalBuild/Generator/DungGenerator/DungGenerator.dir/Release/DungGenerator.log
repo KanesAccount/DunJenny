@@ -1,0 +1,67 @@
+﻿  DunJenny.cpp
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\rule.h(43): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\rule.h(44): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\rule.h(46): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\rule.h(47): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(578): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(581): warning C4244: 'initializing': conversion from 'uintptr_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(587): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(590): warning C4244: 'initializing': conversion from 'uintptr_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(597): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(600): warning C4244: 'initializing': conversion from 'uintptr_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(790): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(1091): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(1123): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(1156): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(1190): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\generator\dunggenerator\dunjenny.cpp(963): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8056): warning C4996: 'std::allocator<std::map<StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,std::less<StringType>,std::allocator<std::pair<const StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>>>::destroy': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+          with
+          [
+              StringType=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xmemory0(1053): note: see declaration of 'std::allocator<std::map<StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,std::less<StringType>,std::allocator<std::pair<const StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>>>::destroy'
+          with
+          [
+              StringType=std::string
+          ]
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8050): note: while compiling class template member function 'void nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::json_value::destroy(nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::value_t)'
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8831): note: see reference to function template instantiation 'void nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::json_value::destroy(nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::value_t)' being compiled
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(12914): note: see reference to class template instantiation 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::json_value' being compiled
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(14455): note: see reference to class template instantiation 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>' being compiled
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8064): warning C4996: 'std::allocator<std::vector<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,std::allocator<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>>::destroy': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xmemory0(1053): note: see declaration of 'std::allocator<std::vector<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,std::allocator<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>>::destroy'
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8072): warning C4996: 'std::allocator<_Ty>::destroy': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xmemory0(1053): note: see declaration of 'std::allocator<_Ty>::destroy'
+          with
+          [
+              _Ty=std::string
+          ]
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(7890): warning C4996: 'std::allocator<_Ty>::construct': warning STL4010: Various members of std::allocator are deprecated in C++17. Use std::allocator_traits instead of accessing these members directly. You can define _SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\xmemory0(1046): note: see declaration of 'std::allocator<_Ty>::construct'
+          with
+          [
+              _Ty=std::string
+          ]
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8016): note: see reference to function template instantiation 'T *nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::create<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,const std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+          with
+          [
+              T=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8016): note: see reference to function template instantiation 'T *nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::create<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,const std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+          with
+          [
+              T=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(8014): note: while compiling class template member function 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::json_value::json_value(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+  e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\metastuff\json.hpp(3132): note: see reference to function template instantiation 'nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::json_value::json_value(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+  DungGenerator.vcxproj -> E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\Bin\DungGenerator.exe

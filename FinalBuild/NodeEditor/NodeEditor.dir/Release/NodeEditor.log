@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/NodeEditor/CMakeLists.txt
+  CMake does not need to re-run because E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/NodeEditor/CMakeFiles/generate.stamp is up-to-date.
+  NodeEditor.cpp
+  Editor.cpp
+  Generating Code...
+  NodeEditor.vcxproj -> E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\NodeEditor\Release\NodeEditor.lib

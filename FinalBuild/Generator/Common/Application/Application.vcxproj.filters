@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Source\DX11\Entry.cpp">
+      <Filter>Source\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Source\DX11\imgui_impl_dx11.cpp">
+      <Filter>Source\DX11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Include\Application.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\Source\DX11\imgui_impl_dx11.h">
+      <Filter>Source\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\stb_image\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\Common\Application\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CD12797C-BF7E-3E96-9082-FB35B5265161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{B9F28D15-07F7-3AC9-9D56-355F002A8AF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{52901166-6721-3327-A454-D7C4BC9439AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DX11">
+      <UniqueIdentifier>{D5E5851A-1355-325F-BE6A-0AECDD1D3928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\DunJenny.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\edge.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\generationStrategy.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graph.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graphBuilder.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\node.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\rule.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\ruleFactory.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\randomGenerator.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\MetaTest.cpp" />
+    <ClCompile Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\StringCast.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\edge.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\generationStrategy.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graph.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\graphBuilder.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\node.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\rule.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\ruleFactory.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\randomGenerator.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\MetaTest.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\MovieInfo.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\Person.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\StringCast.h" />
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Member.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Member.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\Meta.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\MetaHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\template_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\template_helpers.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\JsonCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\ThirdParty\MetaStuff\JsonCast.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\Generator\DungGenerator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CD12797C-BF7E-3E96-9082-FB35B5265161}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

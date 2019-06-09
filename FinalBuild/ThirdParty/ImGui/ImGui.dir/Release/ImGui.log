@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/ThirdParty/ImGui/CMakeLists.txt
+  CMake does not need to re-run because E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/ThirdParty/ImGui/CMakeFiles/generate.stamp is up-to-date.
+  imgui.cpp
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\imgui\imgui.cpp(2487): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\imgui\imgui.cpp(9972): warning C4312: 'reinterpret_cast': conversion from 'int' to 'void *' of greater size
+e:\uni\diss\nodeed cmake\imgui-node-editor-master\thirdparty\imgui\imgui.cpp(9998): warning C4312: 'reinterpret_cast': conversion from 'int' to 'void *' of greater size
+  imgui_demo.cpp
+  imgui_draw.cpp
+  Generating Code...
+  ImGui.vcxproj -> E:\Uni\Diss\nodeEd Cmake\imgui-node-editor-master\FinalBuild\ThirdParty\ImGui\Release\ImGui.lib

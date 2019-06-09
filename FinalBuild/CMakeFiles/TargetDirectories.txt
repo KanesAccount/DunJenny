@@ -1,0 +1,12 @@
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/CMakeFiles/ALL_BUILD.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/CMakeFiles/ZERO_CHECK.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/ThirdParty/ImGui/CMakeFiles/ImGui.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/ThirdParty/picojson/CMakeFiles/ALL_BUILD.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/ThirdParty/stb_image/CMakeFiles/ALL_BUILD.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/ThirdParty/MetaStuff/CMakeFiles/ALL_BUILD.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/NodeEditor/CMakeFiles/NodeEditor.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/Common/Shared/CMakeFiles/Shared.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/Common/Application/CMakeFiles/Application.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/Common/Application/CMakeFiles/dxerr.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/CMakeFiles/DungGenerator.dir
+E:/Uni/Diss/nodeEd Cmake/imgui-node-editor-master/FinalBuild/Generator/DungGenerator/CMakeFiles/ALL_BUILD.dir

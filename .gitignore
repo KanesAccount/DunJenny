@@ -1,0 +1,9 @@
+.vs
+.build
+.DS_Store
+bin
+*.VC.db
+*.VC.opendb
+*.user
+*.ini
+*.json
